@@ -1,0 +1,31 @@
+--- !<Application>
+id: "42543c09-fc6d-4196-bf29-547ff9f42410"
+modelType: "Application"
+appCode: "appcat-pipeline-service"
+atlasId: "APP-9130"
+name: "Application Catalog pipeline"
+appType: "Built"
+description: "AppCat pipeline collects technology metadata from code repos, reads\
+  \ the sharepoint list with uncode apps, manages data as master, provides data to\
+  \ downstream systems."
+state: "Active"
+documentationUrl: "https://confluence.wiley.com/display/DEVOPS/AppCat"
+financialData:
+  applies: false
+personalData:
+  applies: true
+  scope:
+  - "Employee"
+usages:
+- "Internal"
+domainCode: "enterprise-metadata"
+hostedBy: "aws"
+deploymentModel: "Clustered"
+functionalArea: "technology-strategy"
+teams:
+- name: "AppCat dev"
+systemId: "7388252e-d30c-4ae0-bd99-0f2192213538"
+shortCode: "appcat-ppln"
+isSystem: false
+websiteUrls:
+  - "https://appcat-pipeline-service.wiley.tools"
